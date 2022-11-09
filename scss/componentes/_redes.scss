@@ -1,0 +1,90 @@
+.redes{
+    list-style: none;
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.redes li a{
+    text-decoration: none;
+}
+
+.fa-brands{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+    width: 15px;
+    height: 20px;
+}
+
+.fa-brands:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+
+.fa-facebook-f{
+    background-color: #2E406E ;
+    border-radius: 1rem 0 0 0 ;
+    height: 100%;
+}
+
+.fa-instagram{
+    background-color: #3F60A5;
+    height: 100%;
+}
+
+.fa-youtube{
+    background-color: rgb(248, 11, 11);
+    height: 100%;
+}
+
+.fa-twitter{
+    background-color: #339DC5;
+    border-radius : 0 0 0 1rem  ;
+    height: 100%;
+
+}
+.botonarriba{
+    background-color: #000000;;
+    color: #339DC5;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    position: fixed;
+    top: 90%;
+    right: 0;
+    line-height: 40px;
+    border: solid rgb(255, 255, 255);
+    font-size: x-large;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border: black;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: linear-gradient(
+        45deg,
+        #22a1db,
+        #040a0d,
+        #22a1db     
+    );
+    border-radius: 5px;
+    
+}

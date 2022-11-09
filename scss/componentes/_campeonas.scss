@@ -1,0 +1,102 @@
+.forma4{
+    width: 250px;
+    height: 200px;
+}
+.divfotos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "bod1 bod2 bod3 bod4"
+    "bod5 bod6 bod11 bod11"
+    "bod7 bod8 bod11 bod11"
+    "bod9 bod10 bod11 bod11"
+    "bod12 bod13 bod14 bod15" ;
+}
+
+.espacio4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.divfotos :nth-child(1){
+    grid-area: bod1;
+}
+.divfotos :nth-child(2){
+    grid-area: bod2;
+}
+.divfotos :nth-child(3){
+    grid-area: bod3;
+}
+.divfotos :nth-child(4){
+    grid-area: bod4;
+}
+.divfotos :nth-child(5){
+    grid-area: bod5;
+}
+.divfotos :nth-child(6){
+    grid-area: bod6;
+}
+.divfotos :nth-child(7){
+    grid-area: bod7;
+}
+.divfotos :nth-child(8){
+    grid-area: bod8;
+}
+.divfotos :nth-child(9){
+    grid-area: bod9;
+}
+.divfotos :nth-child(10){
+    grid-area: bod10;
+}
+.divfotos :nth-child(11){
+    grid-area: bod11;
+}
+.divfotos :nth-child(12){
+    grid-area: bod12;
+}
+.divfotos :nth-child(13){
+    grid-area: bod13;
+}
+.divfotos :nth-child(14){
+    grid-area: bod14;
+}
+.divfotos :nth-child(15){
+    grid-area: bod15;
+}
+
+.sepa4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.analisisp4{    
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.espacio4, .fotopri{
+    margin-bottom: 30px;
+}
+
+.analisisp4 p{
+    margin: 0 30px 0 30px;
+}
+
+.divfotos .espacio4:hover{
+    transform:scale(2.0);
+    transition: all 0.5s;
+    border: #000000 solid;
+    background-image: linear-gradient(to left, rgb(54, 154, 226), rgb(0, 0, 0)) ;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .divfotos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

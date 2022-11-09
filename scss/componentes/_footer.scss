@@ -1,0 +1,27 @@
+.colornegro{
+    background-image: linear-gradient(to left, rgb(54, 154, 226), rgb(0, 0, 0), rgb(54, 154, 226),  rgb(0, 0, 0)) ;
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div a img{
+    width: 100px;
+    height: 100px;
+}
+
+.divfoo{
+    margin: 0 30px 0 30px;
+}
+
+.divfoo p, .divfoo img{
+    margin: 15px;
+    flex-shrink:unset;
+}
+
+.linea{
+    width: 100px;
+    height: 100px;
+}

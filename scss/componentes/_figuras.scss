@@ -1,0 +1,141 @@
+
+
+.main2 div ul{
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.divmain2{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.separador2{
+    margin: 70px 30px;
+
+}
+.imagenp2{
+    width: 450px;
+    height: 450px;
+}
+
+.imagenp2-2{
+    width: 400px;
+    height: 420px;
+}
+
+.imgpage2-3{
+    width: 600px;
+    height: 450px;
+}
+
+.efectoimagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.efectoimagen figure{
+    position: relative;
+    height: 500px;
+    width: 450px;
+    overflow: hidden;
+    border: 6px;
+    cursor: pointer;
+}
+
+.efectoimagen figure img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-out;
+}
+
+.efectoimagen figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 123, 123, 0.6);
+    transition: 0.5s ease-out;
+    opacity: 0 ;
+    visibility: hidden;
+    text-align: center;
+}
+
+.efectoimagen figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.efectoimagen figure:hover > .img{
+    transform: scale(1.5);
+}
+
+.efectoimagen figure:hover > .capa h6{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.efectoimagen figure .capa h6{
+    color: white ;
+    font-weight: 500px;
+    margin-bottom: 120px;
+    transition: 0.5s ease-out;
+    margin-top: 30px;
+}
+
+h6{
+    font-size: 40px;
+}
+
+.section2{
+    list-style: none;
+    display: flex;    
+    justify-content: space-around;
+
+    margin-bottom: 200px;
+}
+
+.section2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgsec2{
+    width: 250px;
+    height: 250px;
+}
+
+.parte1, .parte2, .parte3, .parte4, .parte5, .parte6{
+    position: absolute;
+}
+
+.parte1, .parte3, .parte5{
+    transition: all 0.5s;
+}
+
+.parte1:hover, .parte3:hover, .parte5:hover{
+    transform: translate(75px, 75px);
+}
+
+.titulopage2{
+    margin-bottom: 70px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.titulomenciones{
+    margin-bottom: 150px;
+    font-size: x-large;
+}
+.l-carr{
+    color: black;
+}
+
+.div-p2{
+    margin-bottom: 50px;
+}

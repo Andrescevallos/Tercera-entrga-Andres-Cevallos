@@ -1,0 +1,32 @@
+@import './componentes/header';
+@import './componentes/footer';
+@import './componentes/main';
+@import './componentes/index';
+@import './componentes/figuras';
+@import './componentes/Final';
+@import './componentes/campeonas';
+@import './componentes/Alberdi';
+@import './componentes/redes';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    background-color: rgb(37, 176, 222);
+    background-image: url(../img/fondo/fondo.jpg);
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(85, 173, 236);
+    float: 0 0 0 20px;
+    
+}
+
+.titulos{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
