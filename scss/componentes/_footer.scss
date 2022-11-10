@@ -25,3 +25,12 @@ footer div a img{
     width: 100px;
     height: 100px;
 }
+
+@media screen and (max-width:480px){
+    .divfoo{
+        flex-direction: column;
+    }
+    .linea{
+        display: none;
+    }
+}
