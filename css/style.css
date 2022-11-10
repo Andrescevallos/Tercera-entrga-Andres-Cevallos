@@ -115,6 +115,9 @@ footer div a img {
   .linea {
     display: none;
   }
+  footer {
+    width: min-content;
+  }
 }
 main {
   margin-left: 30px;
@@ -175,7 +178,6 @@ main {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .separador2 {
@@ -306,22 +308,18 @@ h6 {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 480) {
-  .main2 {
-    display: flex;
-    flex-direction: column;
-    border: 5px solid black;
-    flex-wrap: wrap;
-    width: 100%;
-  }
+@media screen and (max-width: 480px) {
   .divmain2 {
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    height: min-content;
   }
-  .imagenp2-2, .imagenp2-3 {
-    width: 280px;
-    height: 250px;
+  .main2 {
+    margin: 0;
+    padding: 0;
+  }
+  .efectoimagen {
+    width: min-content;
+    height: min-content;
   }
 }
 .instagram-media {
@@ -353,6 +351,7 @@ h6 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 0;
   }
   .forma3 {
     width: 100%;
@@ -483,11 +482,19 @@ h6 {
   .camfoto {
     width: 450px;
     height: 705px;
-    margin-bottom: 500px;
+    margin-bottom: 200px;
   }
   .forma4 {
     width: 350px;
     height: 250px;
+  }
+  .camfoto {
+    width: 80%;
+    height: 80%;
+  }
+  .tablaf {
+    width: 200px;
+    height: 300px;
   }
 }
 .alberdi {
