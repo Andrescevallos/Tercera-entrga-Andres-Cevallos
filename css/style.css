@@ -68,11 +68,15 @@ a:hover {
   header {
     display: flex;
     flex-direction: column;
-    margin-bottom: 150px;
+    margin: 0 0 150px 0;
+    width: 100%;
   }
   .mediahe {
-    width: 90px;
+    width: 80px;
     height: 80px;
+  }
+  .escudo {
+    display: none;
   }
 }
 .colornegro {
@@ -117,6 +121,12 @@ main {
   margin-right: 30px;
 }
 
+@media screen and (max-width: 480px) {
+  main {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
 .section1 {
   display: flex;
   margin-bottom: 50px;
@@ -152,6 +162,9 @@ main {
   .fechas {
     flex-direction: column;
   }
+  .mainp1 {
+    width: 90%;
+  }
 }
 .main2 div ul {
   list-style: none;
@@ -162,6 +175,7 @@ main {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .separador2 {
@@ -292,6 +306,24 @@ h6 {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 480) {
+  .main2 {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .divmain2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .imagenp2-2, .imagenp2-3 {
+    width: 280px;
+    height: 250px;
+  }
+}
 .instagram-media {
   width: 100px;
   height: 350px;
@@ -312,6 +344,27 @@ h6 {
   margin-left: 5%;
 }
 
+@media screen and (max-width: 480px) {
+  .mainpage3, .forma3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .parrafo3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .forma3 {
+    width: 100%;
+  }
+  .imagenp3 {
+    width: 400px;
+    height: 280px;
+  }
+  .eliminarig {
+    display: none;
+  }
+}
 .forma4 {
   width: 250px;
   height: 200px;
@@ -421,6 +474,21 @@ h6 {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .espacio4:hover {
+    display: none;
+  }
+  .tablaf {
+    width: 400px;
+  }
+  .camfoto {
+    width: 450px;
+    height: 705px;
+    margin-bottom: 500px;
+  }
+  .forma4 {
+    width: 350px;
+    height: 250px;
+  }
 }
 .alberdi {
   width: 600px;
@@ -478,6 +546,45 @@ h6 {
   margin-bottom: 50px;
 }
 
+.mediap5 {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .section5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .prim5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .alberdi {
+    display: none;
+  }
+  .mediap5 {
+    display: block;
+    width: 400px;
+    height: 225px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .mapa5 {
+    width: 400px;
+    height: 225px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .imgcultu {
+    display: none;
+  }
+  .cultulink {
+    flex-direction: column;
+  }
+  .cultulink li a {
+    text-decoration: underline;
+  }
+}
 .redes {
   list-style: none;
   position: fixed;
@@ -560,6 +667,57 @@ h6 {
   border-radius: 5px;
 }
 
+.redescelu {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .redes {
+    display: none;
+  }
+  .botonarriba {
+    display: none;
+  }
+  .redescelu {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+  }
+  .redescelu li {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    line-height: 15px;
+  }
+  .fa-facebook-f {
+    background-color: #2E406E;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+  }
+  .fa-instagram {
+    background-color: #3F60A5;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+  }
+  .fa-youtube {
+    background-color: rgb(248, 11, 11);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+  }
+  .fa-twitter {
+    background-color: #339DC5;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+  }
+}
 * {
   margin: 0;
   padding: 0;

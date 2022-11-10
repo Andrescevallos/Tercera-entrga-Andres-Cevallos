@@ -88,3 +88,64 @@
     border-radius: 5px;
     
 }
+
+.redescelu{
+    display: none;
+}
+
+@media screen and (max-width:480px){
+    .redes{
+        display: none;
+    }
+    
+    .botonarriba{
+        display: none;
+    }
+    
+    .redescelu{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .redescelu li{
+        padding: 15px;
+        width: 100px;
+        height: 100px;
+        line-height: 15px;
+    }
+
+    .fa-facebook-f{
+        background-color: #2E406E ;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        font-size: xx-large;
+
+    }
+    
+    .fa-instagram{
+        background-color: #3F60A5;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%; 
+        font-size: xx-large;   }
+    
+    .fa-youtube{
+        background-color: rgb(248, 11, 11);
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        font-size: xx-large;
+    }
+    
+    .fa-twitter{
+        background-color: #339DC5;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        font-size: xx-large;
+    }
+
+    
+}

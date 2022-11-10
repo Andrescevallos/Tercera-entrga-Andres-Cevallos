@@ -73,12 +73,17 @@ a:hover{
     header{
         display: flex;
         flex-direction: column;   
-        margin-bottom: 150px;     
+        margin: 0 0 150px 0; 
+        width: 100%;    
     }
 
     .mediahe{
-        width: 90px;
+        width: 80px;
         height: 80px;
+    }
+
+    .escudo{
+        display: none;
     }
 
 
