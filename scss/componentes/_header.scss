@@ -6,6 +6,7 @@ header{
     height: 500px;
     margin-bottom: 50px;
 
+
 }
 
 h1{
@@ -16,6 +17,12 @@ h1{
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.esc-head{
+    width: 8%;
+    height: 8%;
 }
 
 header div{
@@ -49,11 +56,15 @@ a{
 
 button{
     width: 150px;
-    height: 70px;
-    background-color:  rgb(18, 171, 222);
-    border: 4px solid rgb(18, 171, 222);
+    height: 60px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: rgb(255, 255, 255) solid 2px;
+    background: transparent;
+    flex-wrap: wrap;
+    
 }
-
 
 
 .boots{
@@ -70,24 +81,24 @@ a:hover{
     padding-top: 100px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     header{
-        display: flex;
-        flex-direction: column;   
-        margin: 0 0 150px 0; 
-        width: 100%;    
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        font-size: 2px;
+        text-align: center;
     }
 
-    .mediahe{
-        width: 80px;
-        height: 80px;
+
+
+    .head2{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .escudo{
-        display: none;
     }
 
     
 
-
-    }

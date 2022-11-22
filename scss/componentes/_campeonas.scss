@@ -93,14 +93,14 @@
     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .divfotos{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    .espacio4:hover{
+    .divfotos .espacio4:hover{
         display: none;
     }
 

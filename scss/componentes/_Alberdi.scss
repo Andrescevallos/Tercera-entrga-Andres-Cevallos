@@ -41,7 +41,9 @@
 
 .cultulink li:hover{
     transform:scaleY(2.5);
-    transform: scaleX(1.5)
+    transform: scaleX(1.5);
+    text-decoration: underline;
+
 }
 
 .cultulink li a{
@@ -63,7 +65,7 @@
     display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .section5{
         display: flex;
         flex-direction: column;

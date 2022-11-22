@@ -26,7 +26,7 @@ footer div a img{
     height: 100px;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
     .divfoo{
         flex-direction: column;
     }
@@ -34,7 +34,5 @@ footer div a img{
         display: none;
     }
 
-    footer{
-        width: min-content;
-    }
+
 }

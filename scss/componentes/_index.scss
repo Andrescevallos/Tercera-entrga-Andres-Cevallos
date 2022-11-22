@@ -5,6 +5,8 @@
     
 }
 
+
+
 .parraf1-celu{
     padding-left: 20px;
 }
@@ -23,7 +25,10 @@
     transition: all 0.5s;
 }
 
-@media screen and (max-width: 480px) {
+
+
+
+    @media screen and (max-width: 600px) {
         .section1{
             display: flex;
             flex-direction: column;

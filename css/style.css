@@ -15,6 +15,12 @@ h1 {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.esc-head {
+  width: 8%;
+  height: 8%;
 }
 
 header div {
@@ -47,9 +53,13 @@ a {
 
 button {
   width: 150px;
-  height: 70px;
-  background-color: rgb(18, 171, 222);
-  border: 4px solid rgb(18, 171, 222);
+  height: 60px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border: rgb(255, 255, 255) solid 2px;
+  background: transparent;
+  flex-wrap: wrap;
 }
 
 .boots {
@@ -64,19 +74,18 @@ a:hover {
   padding-top: 100px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   header {
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 150px 0;
     width: 100%;
+    height: 100%;
   }
-  .mediahe {
-    width: 80px;
-    height: 80px;
+  h1 {
+    font-size: 2px;
+    text-align: center;
   }
-  .escudo {
-    display: none;
+  .head2 {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .colornegro {
@@ -108,15 +117,12 @@ footer div a img {
   height: 100px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .divfoo {
     flex-direction: column;
   }
   .linea {
     display: none;
-  }
-  footer {
-    width: min-content;
   }
 }
 main {
@@ -154,7 +160,7 @@ main {
   transition: all 0.5s;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .section1 {
     display: flex;
     flex-direction: column;
@@ -308,7 +314,7 @@ h6 {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .divmain2 {
     flex-direction: column;
     height: min-content;
@@ -342,7 +348,7 @@ h6 {
   margin-left: 5%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .mainpage3, .forma3 {
     display: flex;
     flex-direction: column;
@@ -467,13 +473,13 @@ h6 {
   background-image: linear-gradient(to left, rgb(54, 154, 226), rgb(0, 0, 0));
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .divfotos {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .espacio4:hover {
+  .divfotos .espacio4:hover {
     display: none;
   }
   .tablaf {
@@ -537,6 +543,7 @@ h6 {
 .cultulink li:hover {
   transform: scaleY(2.5);
   transform: scaleX(1.5);
+  text-decoration: underline;
 }
 
 .cultulink li a {
@@ -557,7 +564,7 @@ h6 {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .section5 {
     display: flex;
     flex-direction: column;
