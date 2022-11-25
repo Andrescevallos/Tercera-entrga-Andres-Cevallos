@@ -93,7 +93,11 @@
     
 }
 
-@media screen and (max-width: 600px) {
+.esp-parr{
+    margin-bottom: 1000px;
+}
+
+@media screen and (max-width: 768px) {
     .divfotos{
         display: flex;
         flex-direction: column;
