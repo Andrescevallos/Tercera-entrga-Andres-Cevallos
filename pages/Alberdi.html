@@ -11,10 +11,10 @@
     <title>Alberdi</title>
     <script src="https://kit.fontawesome.com/cfb90e9f6b.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css"> 
 
 </head>
-    <link rel="stylesheet" href="../css/style.css"> 
 <body>
     <div>
         <header id="flecha">
@@ -109,6 +109,69 @@
 
 
 
+            </section>
+
+            <section>
+                <form action="../enviar.php" method="post">
+                    <fieldset>
+                        <legend>Preguntas</legend>
+                        <div>
+                           <div>
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name" title="Ingrese su nombre." required>  
+                            </div>
+
+                           <div>
+                                <label for="Lastname">apellido</label>
+                                <input type="text" id="Lastname" name="Lastname" title="Ingrese su apellido." required>  
+                           </div>
+
+                           <div>
+                                <label for="age">Edad</label>
+                                <input type="number" id="age" name="age" title="Ingrese su edad." required>  
+                            </div>
+
+                            <div>
+                                <label for="phonoNumber">Telefono</label>
+                                <input type="tel" id="phonoNumber" name="phonoNumber" title="Ingrese su telefono.">  
+                            </div>
+
+                            <div>
+                                <label for="email">Mail</label>
+                                <input type="email" id="email" name="email" title="Ingrese su email.">  
+                            </div>
+
+                            <div>
+                                <label for="socio">Socio</label>
+                                <input type="checkbox" id="socio" name="socio" required>  
+                            </div>
+
+                            <div>
+                                <span>Antigüedad</span>
+                                <select name="Antiguedad" id="Antiguedad">
+                                    <option value=""></option>
+                                    <option value="Novato"> Menos de un año</option>
+                                    <option value="Medio">Mas de un año</option>
+                                    <option value="Veterano">Mas de 5 año</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+                            <div>
+                                <label for="textarea"> Comentarios</label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>                            </div>
+                            <div>
+
+                                <div>
+                                    <input type="reset" value="borrar">
+                                    <input type="submit" value="Enviar">
+                                </div>
+
+                        </div>
+                    </fieldset>
+
+                </form>
             </section>
 
 
